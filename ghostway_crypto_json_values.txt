@@ -1,0 +1,10 @@
+{
+  "ghostwayoutwalletvalues": [
+    {
+      "lunc": "terra1l6lcsqgqjh84uxvffghe30w9q3cpwstwz6d0h6",
+      "eth": "0x3614E2cfa385A56772CB38daEE5fb465c1b569eE",
+      "bnb": "0x3614E2cfa385A56772CB38daEE5fb465c1b569eE",
+      "sol": "6a9XuBddt8M5MF3NHJ7AmDY8AJUzwacc55tZYyhMb7qg"
+    }
+  ]
+}
