@@ -1,0 +1,56 @@
+<h1>Ghostway — Terms of Service & Privacy Policy</h1>
+<div class="meta-info">
+    <p><strong>Effective Date:</strong> October 11, 2026<br>
+    <strong>Version:</strong> 1.0</p>
+</div>
+
+<h2>Part 1: Terms of Service</h2>
+
+<h3>1. Acceptance of Terms</h3>
+<p>By installing or using the <strong>Ghostway</strong> browser extension ("Extension", "Service"), you agree to abide by these Terms of Service. If you do not agree, please remove the Extension from your browser immediately.</p>
+
+<h3>2. Description of Service</h3>
+<p>Ghostway provides client-side browser tools for verifying Web3 payment authorizations, managing content access permissions via domain-scoped rules, and facilitating local database state persistence and backup restoration.</p>
+
+<h3>3. Transactions & On-Chain Finality</h3>
+<ul>
+    <li><strong>Blockchain Finality:</strong> All payment verifications and ledger interactions depend on decentralized blockchain protocols. Blockchain transactions are immutable once confirmed by network consensus.</li>
+    <li><strong>No Direct Refunds:</strong> Ghostway does not hold, collect, or store payment merchant funds. Requests for refunds for digital content, software access, or subscriptions must be directed to the receiving merchant, creator, or platform operator.</li>
+</ul>
+
+<h3>4. Acceptable Use & Rate Limiting</h3>
+<p>To ensure system integrity and prevent unauthorized network exploitation, users agree not to:</p>
+<ul>
+    <li>Attempt to bypass or forge domain-scoped verification signatures or proof-of-payment states.</li>
+    <li>Reverse-engineer, flood, or abuse transaction verification endpoints or automated notification mechanisms.</li>
+    <li>Circumvent local rate-limiting mechanisms embedded within the Extension.</li>
+</ul>
+
+<h3>5. Disclaimer of Warranties</h3>
+<p>Ghostway is provided "AS IS" and "AS AVAILABLE" without warranties of any kind, whether express or implied. We do not guarantee uninterrupted operational availability, error-free execution, or real-time RPC network synchronization.</p>
+
+<h2>Part 2: Privacy Policy & Data Disclosures</h2>
+
+<h3>1. Cloud Synchronization & Google Drive API Disclosures</h3>
+<p>Ghostway offers optional cloud synchronization features to backup and restore serialized database state files using Google Identity services (<code>chrome.identity</code>) and the Google Drive REST API.</p>
+
+<div class="info-box">
+    <ul>
+        <li><strong>Scoped Access Limits:</strong> Ghostway requests access exclusively to the <strong>Google Drive Application Data folder</strong> (<code>drive.appdata</code>).</li>
+        <li><strong>Data Isolation:</strong> Ghostway <strong>cannot</strong> view, read, modify, or delete any personal files, documents, or photos in your main Google Drive directory.</li>
+        <li><strong>Use of OAuth Data:</strong> Authentication tokens and database files transferred to/from Google Drive are used strictly for local state rehydration and cloud backup restoration. They are never transmitted to third-party analytics platforms or sold to data brokers.</li>
+    </ul>
+</div>
+
+<h3>2. Local Storage and Processing</h3>
+<p>Ghostway stores domain rules, cached transaction statuses, and local application states on your device using <code>chrome.storage.local</code>. Local data persists until cleared by the user or upon extension reinstallation.</p>
+
+<h3>3. Google API Limited Use Compliance</h3>
+<p>Ghostway’s use and transfer to any other app of information received from Google APIs will adhere to the <strong>Google API Services User Data Policy</strong>, including the Limited Use requirements.</p>
+
+<h3>4. Children’s Privacy (COPPA & GDPR Compliance)</h3>
+<p>Ghostway is not directed toward children under 13 years of age (or under 16 in the European Union). We do not knowingly collect personal information from children.</p>
+
+<hr style="margin-top: 40px; border: 0; border-top: 1px solid #cbd5e0;">
+<h2>Contact</h2>
+<p>For support, policy questions, or data disclosures, please reach out via the official Ghostway repository or support portal.</p>
