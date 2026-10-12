@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tiplly — Terms of Service & Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            color: #333333;
+        }
+        h1 {
+            color: #1a365d;
+            border-bottom: 2px solid #1a365d;
+            padding-bottom: 8px;
+        }
+        h2 {
+            color: #2b6cb0;
+            margin-top: 30px;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #2d3748;
+            margin-top: 20px;
+        }
+        ul {
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .meta-info {
+            font-style: italic;
+            color: #718096;
+            margin-bottom: 25px;
+        }
+        .warning-box {
+            background-color: #fffaf0;
+            border-left: 4px solid #dd6b20;
+            padding: 12px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tiplly — Terms of Service & Privacy Policy</h1>
+    <div class="meta-info">
+        <p><strong>Effective Date:</strong> October 11, 2026<br>
+        <strong>Version:</strong> 1.0</p>
+    </div>
+
+    <h2>Part 1: Terms of Service</h2>
+
+    <h3>1. Acceptance of Terms</h3>
+    <p>By installing, accessing, or using the <strong>Tiplly</strong> browser extension ("Extension", "Service"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please uninstall and discontinue use of the Extension immediately.</p>
+
+    <h3>2. Description of Service</h3>
+    <p>Tiplly is an open, client-side browser extension designed to detect public cryptocurrency wallet addresses on supported web pages (including YouTube content descriptions and custom web attributes) and provide an interface for peer-to-peer cryptocurrency micro-tipping.</p>
+
+    <h3>3. Non-Custodial & Direct Wallet Intermediary</h3>
+    <ul>
+        <li><strong>No Custody of Funds:</strong> Tiplly is strictly a client-side interface tool. Tiplly does not hold, store, manage, receive, process, or transmit user funds, private keys, or seed phrases.</li>
+        <li><strong>Third-Party Providers:</strong> All blockchain transactions are executed directly by external browser extension wallet providers (e.g., EIP-6963 compatible wallets such as MetaMask, Phantom, or Coinbase Wallet). You are bound by the terms of service and security practices of your chosen wallet provider.</li>
+        <li><strong>Network Fees:</strong> You are solely responsible for reviewing and confirming transaction details, recipient public addresses, and network execution fees (gas fees) prior to signing any transaction via your wallet.</li>
+    </ul>
+
+    <h3>4. Parsing Disclaimer & Address Verification</h3>
+    <div class="warning-box">
+        <p><strong>Notice:</strong> Address detection, regex parsing, and UI rendering provided by Tiplly are offered on an "AS IS" and "AS AVAILABLE" basis.</p>
+    </div>
+    <p><strong>User Duty to Verify:</strong> Third-party websites may contain mistyped, outdated, or maliciously altered public wallet addresses. You agree to manually verify recipient addresses before initiating any transfer. Tiplly assumes zero liability for lost, unrecoverable, or misdirected funds resulting from parsing errors or spoofed webpage content.</p>
+
+    <h3>5. Intellectual Property & License</h3>
+    <p>Subject to your compliance with these Terms, Tiplly grants you a limited, non-exclusive, non-transferable, revocable license to use the Extension for personal, non-commercial purposes in accordance with applicable open-source licenses.</p>
+
+    <h3>6. Limitation of Liability</h3>
+    <p>To the maximum extent permitted by applicable law, Tiplly and its developers shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages—including loss of profits, data, digital assets, or goodwill—resulting from:</p>
+    <ul>
+        <li>Failure or delay of blockchain network confirmations.</li>
+        <li>Software bugs, smart contract vulnerabilities, or RPC node downtimes.</li>
+        <li>Unauthorized access to or alteration of your device or wallet software.</li>
+    </ul>
+
+    <h2>Part 2: Privacy Policy</h2>
+
+    <h3>1. Information Collection and Storage</h3>
+    <ul>
+        <li><strong>Local Processing:</strong> Address detection and UI components operate locally within your browser runtime environment.</li>
+        <li><strong>Local Storage (chrome.storage.local):</strong> Tiplly stores user configuration preferences, active network selections, and cached local records exclusively using the browser's local storage API (chrome.storage.local / LokiJS). This data remains on your local device.</li>
+        <li><strong>No Telemetry or Tracking:</strong> Tiplly does not track your cross-site browsing history, profile user behavior across external domains, or collect personally identifiable information (PII).</li>
+    </ul>
+
+    <h3>2. Third-Party Web Interactions & RPC Nodes</h3>
+    <p>When broadcasting or estimating transactions, Tiplly communicates with public RPC (Remote Procedure Call) endpoints or blockchain nodes to fetch gas prices, address balances, or transaction statuses. These requests convey only necessary public metadata (such as public wallet addresses and transaction payload parameters) required to complete the action.</p>
+
+    <h3>3. Age Restrictions & Consent</h3>
+    <p>Tiplly is intended for users who are at least 18 years of age or the age of legal majority in their jurisdiction. By using Tiplly, you represent that you meet this age requirement.</p>
+
+    <h3>4. Changes to These Policies</h3>
+    <p>We reserve the right to modify these terms at any time. Any revisions will be reflected by updating the "Effective Date" at the top of this document.</p>
+
+    <hr style="margin-top: 40px; border: 0; border-top: 1px solid #cbd5e0;">
+    <h2>Contact</h2>
+    <p>For questions regarding these Terms or Privacy Disclosures, please open an issue on the official Tiplly project repository.</p>
+
+</body>
+</html>
