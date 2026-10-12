@@ -1,53 +1,262 @@
-<h1>Ghostway — Terms of Service & Privacy Policy</h1>
-<div class="meta-info">
-    <p><strong>Effective Date:</strong> October 11, 2026<br>
-    <strong>Version:</strong> 1.0</p>
-</div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
 
-<h2>Part 1: Terms of Service</h2>
+    body {
+        margin: 0;
+        padding: 40px 20px;
+        background: #f4f6f8;
+        color: #24292f;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                     Helvetica, Arial, sans-serif;
+        line-height: 1.7;
+        font-size: 16px;
+    }
 
-<h3>1. Acceptance of Terms</h3>
-<p>By installing or using the <strong>Ghostway</strong> browser extension ("Extension", "Service"), you agree to abide by these Terms of Service. If you do not agree, please remove the Extension from your browser immediately.</p>
+    .legal-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 50px 60px;
+        background: #ffffff;
+        border: 1px solid #e1e4e8;
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    }
 
-<h3>2. Description of Service</h3>
-<p>Ghostway provides client-side browser tools for verifying Web3 payment authorizations, managing content access permissions via domain-scoped rules, and facilitating local database state persistence and backup restoration.</p>
+    h1 {
+        margin: 0 0 10px;
+        color: #111827;
+        font-size: 32px;
+        line-height: 1.25;
+        letter-spacing: -0.5px;
+    }
 
-<h3>3. Transactions & On-Chain Finality</h3>
-<ul>
-    <li><strong>Blockchain Finality:</strong> All payment verifications and ledger interactions depend on decentralized blockchain protocols. Blockchain transactions are immutable once confirmed by network consensus.</li>
-    <li><strong>No Direct Refunds:</strong> Ghostway does not hold, collect, or store payment merchant funds. Requests for refunds for digital content, software access, or subscriptions must be directed to the receiving merchant, creator, or platform operator.</li>
-</ul>
+    h2 {
+        margin-top: 45px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #e5e7eb;
+        color: #111827;
+        font-size: 23px;
+    }
 
-<h3>4. Acceptable Use & Rate Limiting</h3>
-<p>To ensure system integrity and prevent unauthorized network exploitation, users agree not to:</p>
-<ul>
-    <li>Attempt to bypass or forge domain-scoped verification signatures or proof-of-payment states.</li>
-    <li>Reverse-engineer, flood, or abuse transaction verification endpoints or automated notification mechanisms.</li>
-    <li>Circumvent local rate-limiting mechanisms embedded within the Extension.</li>
-</ul>
+    h3 {
+        margin-top: 30px;
+        margin-bottom: 8px;
+        color: #1f2937;
+        font-size: 18px;
+    }
 
-<h3>5. Disclaimer of Warranties</h3>
-<p>Ghostway is provided "AS IS" and "AS AVAILABLE" without warranties of any kind, whether express or implied. We do not guarantee uninterrupted operational availability, error-free execution, or real-time RPC network synchronization.</p>
+    p {
+        margin: 10px 0 18px;
+    }
 
-<h2>Part 2: Privacy Policy & Data Disclosures</h2>
+    ul {
+        margin: 10px 0 20px;
+        padding-left: 25px;
+    }
 
-<h3>1. Cloud Synchronization & Google Drive API Disclosures</h3>
-<p>Ghostway offers optional cloud synchronization features to backup and restore serialized database state files using Google Identity services (<code>chrome.identity</code>) and the Google Drive REST API.</p>
+    li {
+        margin-bottom: 9px;
+    }
 
-<div class="info-box">
+    strong {
+        color: #111827;
+    }
+
+    code {
+        padding: 2px 6px;
+        border-radius: 4px;
+        background: #f1f3f5;
+        color: #c7254e;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono",
+                     Menlo, monospace;
+        font-size: 0.9em;
+    }
+
+    .meta-info {
+        margin: 20px 0 35px;
+        padding: 15px 20px;
+        background: #f8fafc;
+        border-left: 4px solid #6b7280;
+        border-radius: 6px;
+        color: #4b5563;
+    }
+
+    .meta-info p {
+        margin: 0;
+    }
+
+    .info-box {
+        margin: 25px 0;
+        padding: 20px 24px;
+        background: #f0f7ff;
+        border: 1px solid #bfdbfe;
+        border-left: 5px solid #2563eb;
+        border-radius: 8px;
+    }
+
+    .info-box ul {
+        margin: 0;
+    }
+
+    .info-box li:last-child {
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 700px) {
+        body {
+            padding: 15px 10px;
+            font-size: 15px;
+        }
+
+        .legal-container {
+            padding: 30px 22px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-size: 26px;
+        }
+
+        h2 {
+            font-size: 21px;
+            margin-top: 35px;
+        }
+
+        h3 {
+            font-size: 17px;
+        }
+    }
+</style>
+
+<div class="legal-container">
+
+    <h1>Ghostway — Terms of Service &amp; Privacy Policy</h1>
+
+    <div class="meta-info">
+        <p>
+            <strong>Effective Date:</strong> October 11, 2026<br>
+            <strong>Version:</strong> 1.0
+        </p>
+    </div>
+
+    <h2>Part 1: Terms of Service</h2>
+
+    <h3>1. Acceptance of Terms</h3>
+    <p>
+        By installing or using the <strong>Ghostway</strong> browser extension
+        ("Extension", "Service"), you agree to abide by these Terms of Service.
+        If you do not agree, please remove the Extension from your browser
+        immediately.
+    </p>
+
+    <h3>2. Description of Service</h3>
+    <p>
+        Ghostway provides client-side browser tools for verifying Web3 payment
+        authorizations, managing content access permissions via domain-scoped
+        rules, and facilitating local database state persistence and backup
+        restoration.
+    </p>
+
+    <h3>3. Transactions &amp; On-Chain Finality</h3>
     <ul>
-        <li><strong>Scoped Access Limits:</strong> Ghostway requests access exclusively to the <strong>Google Drive Application Data folder</strong> (<code>drive.appdata</code>).</li>
-        <li><strong>Data Isolation:</strong> Ghostway <strong>cannot</strong> view, read, modify, or delete any personal files, documents, or photos in your main Google Drive directory.</li>
-        <li><strong>Use of OAuth Data:</strong> Authentication tokens and database files transferred to/from Google Drive are used strictly for local state rehydration and cloud backup restoration. They are never transmitted to third-party analytics platforms or sold to data brokers.</li>
+        <li>
+            <strong>Blockchain Finality:</strong> All payment verifications and
+            ledger interactions depend on decentralized blockchain protocols.
+            Blockchain transactions are immutable once confirmed by network
+            consensus.
+        </li>
+        <li>
+            <strong>No Direct Refunds:</strong> Ghostway does not hold, collect,
+            or store payment merchant funds. Requests for refunds for digital
+            content, software access, or subscriptions must be directed to the
+            receiving merchant, creator, or platform operator.
+        </li>
     </ul>
+
+    <h3>4. Acceptable Use &amp; Rate Limiting</h3>
+    <p>
+        To ensure system integrity and prevent unauthorized network exploitation,
+        users agree not to:
+    </p>
+
+    <ul>
+        <li>
+            Attempt to bypass or forge domain-scoped verification signatures or
+            proof-of-payment states.
+        </li>
+        <li>
+            Reverse-engineer, flood, or abuse transaction verification endpoints
+            or automated notification mechanisms.
+        </li>
+        <li>
+            Circumvent local rate-limiting mechanisms embedded within the
+            Extension.
+        </li>
+    </ul>
+
+    <h3>5. Disclaimer of Warranties</h3>
+    <p>
+        Ghostway is provided "AS IS" and "AS AVAILABLE" without warranties of
+        any kind, whether express or implied. We do not guarantee uninterrupted
+        operational availability, error-free execution, or real-time RPC network
+        synchronization.
+    </p>
+
+    <h2>Part 2: Privacy Policy &amp; Data Disclosures</h2>
+
+    <h3>1. Cloud Synchronization &amp; Google Drive API Disclosures</h3>
+    <p>
+        Ghostway offers optional cloud synchronization features to backup and
+        restore serialized database state files using Google Identity services
+        (<code>chrome.identity</code>) and the Google Drive REST API.
+    </p>
+
+    <div class="info-box">
+        <ul>
+            <li>
+                <strong>Scoped Access Limits:</strong> Ghostway requests access
+                exclusively to the <strong>Google Drive Application Data
+                folder</strong> (<code>drive.appdata</code>).
+            </li>
+            <li>
+                <strong>Data Isolation:</strong> Ghostway
+                <strong>cannot</strong> view, read, modify, or delete any
+                personal files, documents, or photos in your main Google Drive
+                directory.
+            </li>
+            <li>
+                <strong>Use of OAuth Data:</strong> Authentication tokens and
+                database files transferred to/from Google Drive are used strictly
+                for local state rehydration and cloud backup restoration. They are
+                never transmitted to third-party analytics platforms or sold to
+                data brokers.
+            </li>
+        </ul>
+    </div>
+
+    <h3>2. Local Storage and Processing</h3>
+    <p>
+        Ghostway stores domain rules, cached transaction statuses, and local
+        application states on your device using
+        <code>chrome.storage.local</code>. Local data persists until cleared by
+        the user or upon extension reinstallation.
+    </p>
+
+    <h3>3. Google API Limited Use Compliance</h3>
+    <p>
+        Ghostway’s use and transfer to any other app of information received
+        from Google APIs will adhere to the
+        <strong>Google API Services User Data Policy</strong>, including the
+        Limited Use requirements.
+    </p>
+
+    <h3>4. Children’s Privacy (COPPA &amp; GDPR Compliance)</h3>
+    <p>
+        Ghostway is not directed toward children under 13 years of age
+        (or under 16 in the European Union). We do not knowingly collect
+        personal information from children.
+    </p>
+
 </div>
-
-<h3>2. Local Storage and Processing</h3>
-<p>Ghostway stores domain rules, cached transaction statuses, and local application states on your device using <code>chrome.storage.local</code>. Local data persists until cleared by the user or upon extension reinstallation.</p>
-
-<h3>3. Google API Limited Use Compliance</h3>
-<p>Ghostway’s use and transfer to any other app of information received from Google APIs will adhere to the <strong>Google API Services User Data Policy</strong>, including the Limited Use requirements.</p>
-
-<h3>4. Children’s Privacy (COPPA & GDPR Compliance)</h3>
-<p>Ghostway is not directed toward children under 13 years of age (or under 16 in the European Union). We do not knowingly collect personal information from children.</p>
-
