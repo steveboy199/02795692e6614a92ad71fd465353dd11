@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - RelayTip</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-color: #38bdf8;
+            --border-color: #334155;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        .meta {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            color: var(--accent-color);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+        }
+
+        ul {
+            color: var(--text-secondary);
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        code {
+            background-color: var(--bg-color);
+            color: var(--accent-color);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for RelayTip</h1>
+        <div class="meta">
+            <strong>Effective Date:</strong> October 17, 2026 | <strong>Last Updated:</strong> October 17, 2026
+        </div>
+
+        <h2>1. Overview</h2>
+        <p>RelayTip ("we," "our," or "us") provides a non-custodial browser extension designed to facilitate real-time cryptocurrency micro-tipping and automated revenue splitting. We prioritize user privacy and operate under a strict <strong>privacy-first, local-execution model</strong>. RelayTip does not maintain centralized user accounts, track your real-world identity, or store your private cryptographic keys.</p>
+
+        <h2>2. Information We Handle</h2>
+        <p>RelayTip processes minimal data directly on your local device to perform its core single-purpose function (facilitating micro-tips):</p>
+        <ul>
+            <li><strong>On-Page Attributes &amp; Page Context:</strong> To display tip prompts, RelayTip scans web pages locally for designated DOM attributes (e.g., <code>relaytip</code> tags). This parsing is performed entirely within your browser runtime; no web browsing history or page content is logged, transmitted, or stored on remote servers.</li>
+            <li><strong>Local Storage Data:</strong> Your extension configurations, preferred tipping defaults, and locally cached settings are stored in your browser’s local storage (such as Chrome Storage API or local indexed databases).</li>
+            <li><strong>Blockchain Transaction Data:</strong> When you initiate a micro-tip, transaction payload requests are sent to your connected Web3 wallet provider (e.g., via EIP-1193 / EIP-6963 window objects). All completed transactions are publicly visible on their respective blockchain networks (e.g., Shibarium, EVM, or other supported chains).</li>
+        </ul>
+
+        <h2>3. Data We Do NOT Collect</h2>
+        <ul>
+            <li><strong>No Personally Identifiable Information (PII):</strong> We do not collect names, email addresses, IP addresses, physical addresses, or phone numbers.</li>
+            <li><strong>No Private Keys or Passphrases:</strong> RelayTip never requests, accesses, or stores your seed phrases, private keys, or wallet credentials.</li>
+            <li><strong>No Web Tracking or Analytics Profiling:</strong> We do not track your browsing history across non-integrated sites, build behavioral profiles, or use cross-site tracking cookies.</li>
+        </ul>
+
+        <h2>4. Third-Party Services &amp; Blockchain Nodes</h2>
+        <p>To dispatch transactions and retrieve network state (e.g., gas fees, block height), RelayTip interacts with decentralized blockchain RPC endpoints and third-party Web3 wallet extensions. These RPC providers and wallet software operate under their own respective privacy policies.</p>
+
+        <h2>5. Google Chrome Web Store Limited Use Disclosure</h2>
+        <p>RelayTip's use and transfer to any other app of information received from Google APIs will adhere to the <strong>Chrome Web Store User Data Policy</strong>, including the <strong>Limited Use</strong> requirements:</p>
+        <ul>
+            <li>User data is only used to provide or improve the core user-facing functionality of RelayTip.</li>
+            <li>User data is <strong>never</strong> transferred, sold, or disclosed to third parties, advertising platforms, data brokers, or information resellers.</li>
+            <li>User data is <strong>never</strong> used to determine creditworthiness or for lending purposes.</li>
+        </ul>
+
+        <h2>6. Security</h2>
+        <p>We rely on industry-standard browser isolation sandboxing and secure encrypted HTTPS/WSS channels for node communications. However, security also depends on your operating system environment and wallet security practices.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect extension updates or legal requirements. Updated versions will be published alongside extension releases with a revised "Last Updated" date.</p>
+
+        <h2>8. Contact Us</h2>
+        <p>For questions regarding this Privacy Policy or RelayTip operations, please contact us via our official repository or support portal: <a href="mailto:support@relaytip.io">support@relaytip.io</a>.</p>
+    </div>
+</body>
+</html>
