@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - RelayTip</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-color: #38bdf8;
+            --border-color: #334155;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        .meta {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            color: var(--accent-color);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+        }
+
+        ul {
+            color: var(--text-secondary);
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Terms of Service for RelayTip</h1>
+        <div class="meta">
+            <strong>Effective Date:</strong> October 17, 2026 | <strong>Last Updated:</strong> October 17, 2026
+        </div>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, accessing, or using the RelayTip browser extension ("RelayTip"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not install or use RelayTip.</p>
+
+        <h2>2. Description of Service</h2>
+        <p>RelayTip is an open, non-custodial browser extension utility that enables users to detect supported tipping parameters on web pages and dispatch cryptocurrency micro-tips and automated revenue-split transactions via connected Web3 wallet interfaces.</p>
+
+        <h2>3. Non-Custodial &amp; Software-Only Nature</h2>
+        <ul>
+            <li><strong>No Custody of Funds:</strong> RelayTip is purely a visual and client-side software tool. RelayTip does not take custody of, hold, manage, or store your tokens, cryptographic keys, or digital assets at any time.</li>
+            <li><strong>Execution via Third Parties:</strong> All transaction signing, key authorization, and asset management occur independently inside your external Web3 wallet (e.g., MetaMask, Rabby, Coinbase Wallet).</li>
+            <li><strong>Irreversibility:</strong> Blockchain transactions are permanent and non-reversible. RelayTip cannot refund, recall, cancel, or reverse any transaction submitted to a blockchain network.</li>
+        </ul>
+
+        <h2>4. User Responsibilities &amp; Assumptions of Risk</h2>
+        <p>By using RelayTip, you acknowledge and accept that:</p>
+        <ul>
+            <li><strong>Blockchain Risks:</strong> Cryptographic assets and smart contract interactions carry inherent technical, network volatility, gas fee, and security risks.</li>
+            <li><strong>Accuracy of Inputs:</strong> You are solely responsible for verifying transaction amounts, recipient wallet addresses, network selections, and smart contract details prior to signing any transaction in your wallet.</li>
+            <li><strong>Compliance:</strong> You are responsible for ensuring that your use of cryptocurrency micro-tipping complies with all applicable local, state, national, and international laws, regulations, and tax reporting requirements.</li>
+        </ul>
+
+        <h2>5. Automated Revenue Splitting &amp; Fees</h2>
+        <p>If configured, RelayTip executes smart-contract or multi-dispatcher transactions designed to split tipping payments between recipients or protocol maintainers. You agree to inspect and confirm all transaction breakdowns and estimated gas fees presented in your wallet dialog before approving transactions.</p>
+
+        <h2>6. Intellectual Property &amp; License</h2>
+        <p>RelayTip grants you a limited, non-exclusive, non-transferable, revocable license to install and use the extension for personal or internal business purposes in accordance with these Terms. All trademarks, branding assets, codebases, and logos associated with RelayTip remain the property of RelayTip's creators.</p>
+
+        <h2>7. Prohibited Conduct</h2>
+        <p>You agree not to:</p>
+        <ul>
+            <li>Use RelayTip to violate any applicable law or facilitate illegal money laundering, terrorist financing, or fraud.</li>
+            <li>Exploit software vulnerabilities, inject malicious code into DOM attributes, or attempt to tamper with client-side transaction parameter generation.</li>
+            <li>Misrepresent your identity or attempt to impersonate legitimate content creators or tipping recipients.</li>
+        </ul>
+
+        <h2>8. Disclaimer of Warranties</h2>
+        <p class="uppercase">RELAYTIP IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WE DO NOT WARRANT THAT RELAYTIP WILL BE ERROR-FREE, UNINTERRUPTED, SECURE, OR FREE FROM VIRUSES OR OTHER HARMFUL COMPONENTS.</p>
+
+        <h2>9. Limitation of Liability</h2>
+        <p class="uppercase">TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE DEVELOPERS, MAINTAINERS, OR CONTRIBUTORS OF RELAYTIP BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, USE, GOODWILL, OR DIGITAL ASSETS, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF OR INABILITY TO USE RELAYTIP.</p>
+
+        <h2>10. Modifications to Terms</h2>
+        <p>We reserve the right to revise or update these Terms at any time. Continued use of RelayTip after any changes constitutes your acceptance of the revised Terms.</p>
+
+        <h2>11. Contact Information</h2>
+        <p>For legal inquiries, technical issues, or terms clarification, please visit <a href="https://relaytip.io" target="_blank" rel="noopener">https://relaytip.io</a> or reach out via <a href="mailto:legal@relaytip.io">legal@relaytip.io</a>.</p>
+    </div>
+</body>
+</html>
